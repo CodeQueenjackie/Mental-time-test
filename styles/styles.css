@@ -4,10 +4,10 @@
   margin: 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 350;
   line-height: 1.5;
   color:whitesmoke;
-  background-color: purple;
+  background-color: rgb(171, 105, 171);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -32,20 +32,37 @@
     display: flexbox;
 
 }
-.list { 
+.service{ 
     margin-right: 15px;
     float: center; 
     gap: 15px;
-    color: black;
-    font-size: 30px;
-    list-style-type: none;
+    color:whitesmoke;
+    font-size: 25px;
+    font-style: italic;
+}
+.service2{
+     margin-right: 15px;
+    float: center; 
+    gap: 15px;
+    color:whitesmoke;
+    font-size: 25px;
+    font-style: italic;
+
 }
 .header{
 font-size: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 float: center;
 font-display: center;
-
+}
+.container{
+    width: 100%;
+    padding:20px;
+    font-size: 30px;
+    font-style: italic;
+    color:whitesmoke;
+    padding-right: 20px;
+    margin: black;
 }
 .mg1{
     width: 550px;
@@ -65,7 +82,10 @@ margin: 20px;
 
 .f1{
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
+    font-style: inherit;
+    text-shadow: 0cqmax;
+    
 }
 .f2{
     text-align:center ;
@@ -74,8 +94,10 @@ margin: 20px;
     
 }
 .f3{
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
+    float: center;
+
 }
 
 .serv-body{
@@ -175,14 +197,47 @@ margin: 20px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.footer{
+    font: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    list-style-type: none;
+    
+}
+.footer1{
+    font: 10px;
+    font-style: oblique;
+    background-color: black;
+    list-style-type: none;
+}
 
-
-
-
-
-
-
-
+.li{
+    font-size: 20px;
+}
+.li2{
+    font-size: 20px;
+}
+.pid{
+    width: 700px ;
+    height: 450px;
+}
+.tpic{
+    margin-left: 20px;
+    width: 700px;
+    height: 450px;
+}
+.care{
+    margin-right: 15px;
+    float: center; 
+    gap: 15px;
+    color:whitesmoke;
+    font-size: 25px;
+    font-style: italic;
+}
+.mg6{
+    height: 450px;
+    width: 800px;
+}
 
 
 
